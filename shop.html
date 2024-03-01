@@ -20,10 +20,28 @@
             <li><a href="#">Contact us</a></li>
         </ul>
     </nav>
-    <div>
-        <div>
+    <div class="completeShop">
+        <div class="filter-section">
             <h1>Filter</h1>
+            <div class="filter-option">
+                <label for="exchange-rate">Exchange Rate:</label>
+                <input type="range" id="exchange-rate" name="exchange-rate" min="0" max="100">
+            </div>
+            <h1>Popularity</h1>
+            <div class="filter-option">
+                <input type="radio" id="popular" name="popularity" value="popular">
+                <label for="popular">Popular</label>
+                <input type="radio" id="very-popular" name="popularity" value="very-popular">
+                <label for="very-popular">Very Popular</label>
+                <input type="radio" id="hot" name="popularity" value="hot">
+                <label for="hot">HOT</label>
+            </div>
+            <div class="filter-option">
+                <input type="checkbox" id="availability" name="availability">
+                <label for="availability">Available Only</label>
+            </div>
         </div>
+        
         <div class="shop">
         <div class="gridShop">
             <div class="shopCard">

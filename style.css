@@ -88,6 +88,45 @@ body {
     font-size: 30px;  
 }
 
+.completeShop {
+    display: flex;
+    flex-direction: row;
+}
+
+.filter-section {
+    margin: 50px;
+    width: 250px;
+    height: 230px;
+    margin: 20px;
+    padding: 20px;
+    border: 3.5px solid #0badec;
+    border-radius: 15px;
+}
+
+.filter-section h1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 0;
+}
+
+.filter-option {
+    margin: 10px 0;
+}
+
+
+.filter-option {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;  
+}
+
+
+
+
 .shop {
     display: flex;
     flex-direction: column;
