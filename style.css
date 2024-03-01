@@ -60,7 +60,7 @@ body {
     padding: 100px;
     display: flex;
     justify-content: center;
-    
+    margin: 50px;
     flex-direction: row;
 }
 
@@ -79,9 +79,11 @@ body {
     font-size: 80px;
     margin-top: 0;
     color:rgb(0, 140, 255);
+    margin-right: 25px;
 }
 
 .card p {
+    margin-right: 25px;
     font-family: "Varela Round", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -206,10 +208,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Outfit", sans-serif;
     color: #FFFFFF; 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .advertisement h1,h3 {
     font-family: "Outfit", sans-serif;
+}
+
+.contact-header {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.contactForm {
+    width: 600px;
+}
+
+.contactForm div {
+    display:  flex;
+    flex-direction: column;
 }
