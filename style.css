@@ -213,21 +213,64 @@ body {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
-.advertisement h1,h3 {
+.advertisement h1 {
     font-family: "Outfit", sans-serif;
 }
 
 .contact-header {
     font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 500;
-    padding-left: 10px;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: 0;
+    color:rgb(0, 140, 255);
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactForm {
     width: 600px;
+    display: flex;
+}
+
+.contactForm label {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color:rgb(0, 140, 255); 
+    margin-top: 15px;
 }
 
 .contactForm div {
     display:  flex;
     flex-direction: column;
 }
+
+.contactForm input {
+    border: none; 
+    border-bottom: 2px solid #ccc; 
+    padding: 10px 0; 
+    outline: none; 
+    width: 300px;
+    margin-top: 5px;
+    font-family: "Outfit", sans-serif;
+}
+
+.contactForm textarea {
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    font-family: "Outfit", sans-serif;
+}
+
+
