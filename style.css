@@ -1,7 +1,7 @@
 body {
     margin: auto;
     height: 100%;
-     width: 100%;
+    width: 100%;
   
 }
 
@@ -13,7 +13,8 @@ body {
     justify-content: start;
     align-items: center;
     position: relative; 
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
     background-color: white;
 }
 
@@ -43,7 +44,7 @@ body {
 
 .navbar ul li a {
     font-size: 25px;
-    color: rgb(5, 99, 206);
+    color:  rgb(0, 140, 255); 
     text-decoration: none;
     transition: color 0.3s;
     display: block; 
@@ -52,7 +53,7 @@ body {
 
 .navbar img {
     padding: 15px;
-    width: 150px;
+    width: 170px;
     height: 45px;
 }
 
@@ -300,6 +301,68 @@ body {
 
 .submit-btn:hover {
     background-color: #47bafd; ; 
+}
+
+.crypto-footer {
+    background-color: #0058b1; 
+    color: white;
+    padding: 20px 0;
+    font-family: "Outfit", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #00acee; 
+}
+
+.contact-section {
+    background-color: #ffffff; 
+    color: #003366; 
+    padding: 20px;
+    max-width: 1280px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+    color: #007bff; 
+    font-family: "Outfit", sans-serif;
+}
+
+.contact-section p {
+    font-family: "Varela Round", sans-serif;
+}
+
+.contact-section a {
+    color: #007bff; 
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-section a:hover {
+    color: #0056b3; 
 }
 
 
