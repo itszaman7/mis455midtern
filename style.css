@@ -222,27 +222,36 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 15px;
-    margin-top: 0;
+    font-size: 45px;
+    margin-top: 15px;
     color:rgb(0, 140, 255);
     margin-right: 25px;
     margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .contact-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
+.contact-container img {
+    border-radius: 15px;
+    width: 700px;
+    margin: 15px;
+}
+
 .contactForm {
     width: 600px;
-    display: flex;
+    
 }
 
 .contactForm label {
-    display: flex;
+    
     font-family: "Varela Round", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -268,9 +277,29 @@ body {
 
 .contactForm textarea {
     margin: 10px;
-    height: 150px;
+    height: 137px;
     width: 300px;
     font-family: "Outfit", sans-serif;
+}
+
+.submit-btn {
+    border: 2px solid #47bafd; 
+    font-weight: 600; 
+    font-size: 1.875rem; 
+    line-height: 2.25rem; 
+    padding: 0.5rem;
+    margin-top: 2rem; 
+    margin-bottom: 2rem; 
+    background-color: transparent;
+    transition: color 0.3s; 
+    width: 250px; 
+    cursor: pointer; 
+    border-radius: 15px;
+    font-family: "Outfit", sans-serif;
+}
+
+.submit-btn:hover {
+    background-color: #47bafd; ; 
 }
 
 
